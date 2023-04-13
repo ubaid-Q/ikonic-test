@@ -12,7 +12,6 @@ import { revokeToken } from "../../config/tokensConfig";
 export class Auth {
     constructor(private userService = new UserService()) { }
 
-    
     /**
      * Register a user
      * @param req 
